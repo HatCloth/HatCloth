@@ -552,6 +552,7 @@ body {
 /* akhir contact */
 /* footer */
 .footer {
+  margin-top: 5rem;
   background-color: var(--mono);
   padding: 5rem 2rem 2rem;
 }
