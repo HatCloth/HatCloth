@@ -698,7 +698,7 @@ small {
     z-index: 1;
     transition: all 1s;
     transform: translateX(100%);
-    background-color: var(--mono);
+    background-color: whi;
     padding: 0 1rem;
     opacity: 0;
   }
@@ -721,12 +721,13 @@ small {
     font-size: 3rem;
   }
 
+
   .hero .cta {
     display: block;
     font-weight: bold;
     font-size: 1.5rem;
     color: black;
-    background-color: var(--mono);
+    background-color: white;
     margin-right: 0;
   }
 
