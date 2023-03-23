@@ -376,7 +376,13 @@ body {
 
 /* akhir contact */
 
+/* map */
+.container-map {
+    padding: 7% 6%;
+    background-color: var(--bg);
+}
 
+/* akhir map */
 /* footer */
 .footer {
     margin-top: 5rem;
