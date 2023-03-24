@@ -783,6 +783,14 @@ small {
   }
 
   /* Akhir header */
+  /* hatcloth */
+  .hatcloth h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 5rem 0 2rem;
+  }
+
+  /* akhir hatcloth */
 
   /* pelanggan */
   .img img {
