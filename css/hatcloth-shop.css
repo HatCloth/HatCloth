@@ -1,42 +1,51 @@
-body {
+.error {
     background-color: rgba(0, 0, 0, 0.8);
     min-height: 100vh;
     padding: 7%;
     box-sizing: border-box;
+    display: flex;
 }
 
 .container {
     box-shadow: 0 0 10px white;
+    height: 60%;
     background-color: white;
-    padding-top: 1.5rem;
+    padding: 1.5rem;
+    margin: auto;
+    border-radius: 10px;
 
 }
 
 .row {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
-    flex: 1 1 65%;
+    display: flex;
 }
 
-.service-img {
-    flex: 1 1 35%;
-    padding: 2rem;
-    position: relative;
+.hatcloth-logo {
+    flex: 1 1 65rem;
 }
 
-.service-img img {
-    width: 50%;
-    position: absolute;
-    bottom: 2rem;
-    right: 2rem;
+.content-img {
+    flex: 1 1 20%;
+
+}
+
+.content-img img {
+    width: 80%;
+    object-fit: cover;
+
 }
 
 h1 {
     font-size: 4rem;
     font-weight: 600;
-    margin: 0 1.5rem 1.5rem;
+
 
 }
 
@@ -58,5 +67,22 @@ h2 {
 }
 
 p {
+    margin-top: 1.5rem;
     line-height: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 1.4rem;
+    color: var(--blue);
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+a:hover {
+    color: black;
+
 }
