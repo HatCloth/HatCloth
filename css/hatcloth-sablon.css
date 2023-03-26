@@ -138,7 +138,7 @@ body {
 
 /* header */
 .hero {
-    background-image: url(../img/icons/bg-sablon.png);
+    background-image: url(../img/icons/bg-sablon\ 1.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,6 +191,35 @@ body {
 }
 
 /* akhir header */
+
+/* vidio */
+.container-vidio {
+    padding: 8%;
+    background-color: var(--bg);
+
+}
+
+.container-vidio .title {
+    text-align: center;
+
+}
+
+.container-vidio .title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: var(--blue);
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+}
+
+.container-vidio .title p {
+    margin-bottom: 2rem;
+    line-height: 1.8rem;
+    letter-spacing: 2px;
+}
+
+/* akhir vidio */
 
 /* product */
 .product {
